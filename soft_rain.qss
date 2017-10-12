@@ -26,10 +26,10 @@ QTabBar::tab:selected {
 }
 /*QRadioButton*/
 QRadioButton::indicator::unchecked {
-    image:url(./image/circle_grey.png);
+    image:url(./image/circle_2.png);
 }
 QRadioButton::indicator::checked {
-    image:url(./image/circle_green.png);
+    image:url(./image/circle_1.png);
 }
 /*QCheckBox*/
 QCheckBox::indicator::unchecked {
