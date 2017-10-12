@@ -321,6 +321,20 @@ QTableView::item:selected {
     color:white;
     background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #506B79,stop:1.0 #0D95A6);
 }
+QTableView::indicator {
+    width:44px;
+    height:44px;
+    subcontrol-position:center;
+}
+QTableView::indicator:enabled:unchecked {
+    image:url(./image/check_box_1.png);
+}
+QTableView::indicator:enabled:checked {
+     image:url(./image/check_box_2.png);
+}
+QTableView::indicator:enabled:indeterminate {
+    image:url(./image/check_box_1.png);
+}
 /*QTreeView*/
 QTreeView {
     border:1px solid #447684;
