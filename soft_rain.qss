@@ -66,6 +66,9 @@ QPushButton::pressed{
     border-color:#11505C;
     background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #969B9C,stop:0.5 #16354B,stop:1 #244F76);
 }
+QPushButton:checked {
+    color:green;
+}
 /*QToolButton need correct*/
 QToolButton{
     border:1px solid #11223F;
@@ -406,4 +409,8 @@ QToolBox::tab {
 QDockWidget {
     background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #080B10,stop:1.0 #212C3F);
 }
-
+/*QDialog*/
+QDialog QPushButton {
+    min-height:25px;
+    min-width:60px;
+}
